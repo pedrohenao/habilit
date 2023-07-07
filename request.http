@@ -1,0 +1,18 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+
+"TipoDoc": "cc",
+"NumeroDoc" : "9877363",
+"FechaNac":"9nov95",
+"Telefono": "3004343",
+"Nombre":"pedro",
+"Apellido" :"henao",
+"Direccion":"calle12",
+"Email":"pehenao@gmail.com",
+"ingresoComp": "09nov"
+
+
+}
